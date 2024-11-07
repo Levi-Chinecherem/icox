@@ -1,0 +1,22 @@
+C:\Development\tools\icox\contract (contract@1.0.0)
+λ npx hardhat run scripts/deploy.js --network sepolia Deploying contracts with the account: 0xA990D48481647ec886200a838F43c2A9bbbbB641
+Contract deployment transaction sent. Awaiting confirmation...
+ICOXContract deployed to: 0x66ffAb55697ac95d03687c4518768B5f767C0fB8
+
+C:\Development\tools\icox\contract (contract@1.0.0)
+λ npx hardhat verify --network sepolia 0x66ffAb55697ac95d03687c4518768B5f767C0fB8
+[INFO] Sourcify Verification Skipped: Sourcify verification is currently disabled. To enable it, add the following entry to your Hardhat configuration:
+
+sourcify: {
+  enabled: true
+}
+
+Or set 'enabled' to false to hide this message.
+
+For more information, visit https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify#verifying-on-sourcify
+Successfully submitted source code for contract
+contracts/ICOXContract.sol:ICOXContract at 0x66ffAb55697ac95d03687c4518768B5f767C0fB8
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract ICOXContract on the block explorer.
+https://sepolia.etherscan.io/address/0x66ffAb55697ac95d03687c4518768B5f767C0fB8#code
